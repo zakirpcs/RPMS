@@ -1,3 +1,6 @@
+%global _enable_debug_package 0
+%define debug_package %{nil}
+
 Name:           technitium
 Version:        14.3
 Release:        1%{?dist}
